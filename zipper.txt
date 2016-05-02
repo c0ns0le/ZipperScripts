@@ -1,0 +1,7 @@
+Mac
+
+    for %A in (*.txt) do ..\bin\7za.exe a -tzip  %~nA.zip %A
+
+pc
+
+     for %A in (*.txt) do "C:\Program Files\7-Zip\7z.exe" a -tzip  %~nA.zip %A
